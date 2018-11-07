@@ -6,5 +6,5 @@ class ApplicationController < ActionController::Base
   def cart
     @cart = session[:cart_id]
   end
-  
+
 end
