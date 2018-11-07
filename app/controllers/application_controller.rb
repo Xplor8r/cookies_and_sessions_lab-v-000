@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   helper_method :cart
 
   def cart
-    session[:cart_id] ||= []
+    session[:cart_id] || = []
   end
 
 end
